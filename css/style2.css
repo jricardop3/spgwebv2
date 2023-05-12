@@ -5,14 +5,16 @@
 		margin: 0px;
 		padding: 0px;
 	}
+
 	header {
-		width: 412px;
-		height: 140px;
-		margin-left: 10px;	
+		width: 902px;
+		height: 150px;
+		margin-left: 30px;	
 	}
 	#logo {
-		width: 100%;
+		width: 150%;
 		height: 79%;
+		padding-right: 150px;
 		display: inline;
 	}
 	#logo img {
@@ -20,10 +22,11 @@
 		margin-bottom: 15px;
 	}
 	#foto {
-		width: 100%;
+		width: 150%;
 		height: 79%;
 		display: inline;
-		font-size: 0.7em;	
+		font-size: 0.7em;
+		padding-left: 170px;
 	}
 	#foto img {
 		border-radius: 150px;
@@ -31,13 +34,13 @@
 		padding-top: 3px;
 	}
 	#menu {
-		width: 100%;
+		width: 150%;
 		height: 19%;
 		padding-left: 8px;
 	}
 	#menu ul {
 		list-style: none;
-		font-size: 80%;
+		font-size: 150%;
 	}
 	#menu ul li {
 		display: inline;
@@ -55,11 +58,11 @@
 	}
 	#conteudo {
 		display: flex;
-		flex-wrap: wrap
+		flex-wrap: wrap;
+		
 	}
 	section {
-		padding-left: 15px;
-		madgin-bottom: 10px;		
+		padding:15px;		
 	}
 	#rodape {
 		display: block;
@@ -76,6 +79,9 @@
 		padding: 1px;
 	}
 	h3 {
-		padding: 2px 0;
+		padding: 3px;
 	}
+p{
+	text-align: justify;
+}
  /** fim da media query */
