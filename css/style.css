@@ -62,6 +62,16 @@ section {
 #rodape {
 	display: block;
 	text-align: center;
+	margin: 10px;
+}
+#rodape a {
+	text-decoration: none;
+}
+#rodape a:hover {
+	color: black;
+	background: white;
+	border-radius: 3px;
+	padding: 1px;
 }
 h3 {
 	padding: 2px 0;
