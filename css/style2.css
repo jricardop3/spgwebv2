@@ -20,6 +20,7 @@
 	#logo img {
 		border-radius: 3px;
 		margin-bottom: 15px;
+		
 	}
 	#foto {
 		width: 150%;
@@ -53,8 +54,10 @@
 	#menu ul li a:hover {
 		color: black;
 		background: White;
+		padding: 2px 4px;
 		border-radius: 10px;
-		transition: 1s;
+		transition: 1.5s;
+		font-size: 100%;
 	}
 	#conteudo {
 		display: flex;
@@ -62,8 +65,12 @@
 		
 	}
 	section {
-		padding:15px;		
+		padding:15px;
+	
 	}
+section img {
+	border: 2px solid white;
+}
 	#rodape {
 		display: block;
 		text-align: center;
@@ -84,4 +91,3 @@
 p{
 	text-align: justify;
 }
- /** fim da media query */
