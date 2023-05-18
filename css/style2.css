@@ -66,8 +66,13 @@
 	}
 	section {
 		padding:15px;
-	
 	}
+	section a {
+		text-decoration: none;
+	}
+	section a:hover {
+			color: green;
+		}
 section img {
 	border: 2px solid white;
 }

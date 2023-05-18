@@ -61,6 +61,15 @@
 		padding-left: 15px;
 		madgin-bottom: 10px;		
 	}
+section p {
+	margin-bottom: 5px;
+}
+	section a {
+		text-decoration: none;
+	}
+	section a:hover {
+		color: green;
+	}
 	#rodape {
 		display: block;
 		text-align: center;
